@@ -1,0 +1,1529 @@
+body{
+	width:100%;
+	overflow-x: hidden;
+	padding:0px;
+	margin:0px;
+}
+.section-one{
+	width:100%;
+	height:500px;
+	position: relative;
+	float: left;
+}
+.section-one-part-one{
+	width:40%;
+	height:500px;
+	position: relative;
+	float: left;
+    background-image:url("../lady rock edge.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.section-one-image{
+	width:200px;
+	z-index: 11111111;
+	height:250px;
+	position: absolute;
+	background-image:url("../2.jpg");
+	background-position: center;
+	background-size: cover;
+	right:-100px;
+	top:125px;
+}
+.section-one-part-two{
+	width:60%;
+	height:500px;
+	background:#fff;
+	position: relative;
+	float: left;
+}
+.section-one-button1{
+	width:110px;
+	height:30px;
+	background:#f05;
+	color:#000;
+	font-size: 13px;
+	border:none;
+	float: right;
+	margin-right:10px;
+	margin-top:23px;
+}
+.toggle-button{
+	position: absolute;
+	top:20px;
+	right:20px;
+	display:none;
+	flex-direction: column;
+	justify-content: space-between;
+	width:30px;
+	height:21px;
+}
+.toggle-button .bar{
+	width:100%;
+	height:3px;
+	background-color:#000;
+	border-radius: 10px;
+}
+.section-one-navbar{
+	width:400px;
+	/*background:#999;*/
+	height:40px;
+	float: right;
+	margin-right:10px;
+}
+.section-one-navbar ul{
+	list-style: none;
+	display: inline-flex;
+}
+.section-one-navbar ul li{
+	width:50px;
+	margin:10px;
+}
+.section-one-navbar ul li a{
+	font-size:15px;
+	color:#000;
+	text-decoration: none;
+	font-family: sans;
+}
+.section-one-text-container{
+	width:200px;
+	height:140px;
+	/*background:#000;*/
+	margin-top:145px;
+	margin-left:110px;
+}
+.section-one-text1{
+	font-size:30px;
+	color:#000;
+	text-align: left;
+}
+.section-one-button2{
+	width:120px;
+	height:25px;
+	background:#f05;
+	color:#000;
+	font-size:14px;
+	border:none;
+	margin-top:10px;
+}
+@media screen and (max-width:1000px){
+  .section-one-button1{
+	  width:90px;
+	  height:30px;
+	  background:#f25;
+	  color:#fff;
+	  font-size:10px;
+	  border:none;
+	  /*float: right;*/
+	  /*margin-right:5px;*/
+	  margin-top:23px;
+}
+.section-one-navbar{
+	width:400px;
+	/*background:#999;*/
+	height:40px;
+	margin-right:10px;
+}
+.section-one-navbar ul li{
+	width:40px;
+	/*margin:2px;*/
+	padding:6px;
+}
+.section-one-navbar ul li a{
+	font-size:15px;
+	color:#000;
+	text-decoration: none;
+	font-family: sans;
+}
+.section-one-text1{
+	font-size:25px;
+	color:#000;
+	text-align: left;
+}
+.section-one-text-container{
+	width:180px;
+	height:140px;
+	/*background:#000;*/
+	margin-top:145px;
+	margin-left:110px;
+}
+.section-one-image{
+	width:170px;
+	z-index: 11111111;
+	height:250px;
+	position: absolute;
+	background-image:url("../2.jpg");
+	background-position: center;
+	background-size: cover;
+	right:-70px;
+	top:125px;
+}
+.section-one-text-container{
+	width:200px;
+	height:140px;
+	/*background:#000;*/
+	margin-top:145px;
+	margin-left:80px;
+}
+}
+@media screen and (max-width:880px){
+.section-one-button1{
+	  width:70px;
+	  height:30px;
+	  background:#f05;
+	  color:#000;
+	  font-size:10px;
+	  border:none;
+	  /*float: right;*/
+	  /*margin-right:5px;*/
+	  margin-top:23px;
+}
+.section-one-navbar{
+	width:350px;
+	/*background:#999;*/
+	height:40px;
+	margin-right:5px;
+}
+.section-one-navbar ul li{
+	width:30px;
+	/*margin:2px;*/
+	padding:6px;
+}
+.section-one-navbar ul li a{
+	font-size:13px;
+	color:#000;
+	text-decoration: none;
+	font-family: sans;
+}
+.section-one-text1{
+	font-size:20px;
+	color:#000;
+	text-align: left;
+}
+.section-one-image{
+	width:160px;
+	z-index: 11111111;
+	height:250px;
+	position: absolute;
+	background-image:url("../2.jpg");
+	background-position: center;
+	background-size: cover;
+	right:-70px;
+	top:125px;
+}
+.section-one-text-container{
+	width:130px;
+	height:140px;
+	/*background:#000;*/
+	margin-top:145px;
+	margin-left:80px;
+}
+}
+@media screen and (max-width:750px){
+.section-one-button1{
+	  width:55px;
+	  height:30px;
+	  background:#f05;
+	  color:#000;
+	  font-size:9px;
+	  border:none;
+	  /*float: right;*/
+	  /*margin-right:5px;*/
+	  margin-top:23px;
+}
+.section-one-navbar{
+	width:320px;
+	/*background:#999;*/
+	height:40px;
+	margin-right:3px;
+}
+.section-one-navbar ul li{
+	width:25px;
+	/*margin:4px;*/
+	padding:4px;
+}
+.section-one-navbar ul li a{
+	font-size:12px;
+	color:#000;
+	text-decoration: none;
+	font-family: sans;
+}
+}
+@media screen and (max-width:650px){
+	.toggle-button{
+		display: flex;
+	}
+	.section-one-navbar{
+		display:none;
+		/*background:red;*/
+		/*height:300px;*/
+		position: relative;
+		float: right;
+		left:220px;
+	}
+	.section-one-navbar{
+		flex-direction: column;
+		align-items:flex-start;
+	}
+	.section-one-navbar ul{
+		flex-direction: column;
+		/*width:100%;*/
+	}
+	.section-one-navbar ul li{
+	    width:25px;
+	    margin:10px;
+    }
+	.section-one-navbar .active{
+		display: flex;
+		margin-right:30px;
+	}
+.section-one-button1{
+	width:90px;
+	height:30px;
+	background:#f05;
+	color:#000;
+	font-size: 13px;
+	border:none;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+}
+/*section two*/
+.section-two-container{
+	width:100%;
+	/*height:300px;*/
+	position: relative;
+	float: left;
+	background:#fff;
+	 margin-top:90px;
+}
+.section-two-wrap{
+	width:50%;
+	margin-left:25%;
+}
+.section-two-background{
+	width:100%;
+	height:300px;
+	position: relative;
+	float: left;
+	background:#fff;
+}
+.section-two-text1{
+	width:200px;
+	height:30px;
+	position: absolute;
+	/*background:#f05;*/
+	color:#000;
+	font-family: calibri;
+	top:-40px;
+	font-size:27px;
+}
+.section-two-text2{
+	width:140px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	position:relative;
+	float: right;
+	margin-top:20px;
+    /*bottom:-400px;*/
+	background:#f05;
+	color: black;
+	font-family: calibri;
+	font-size:14px;
+}
+.section-two-image-one{
+	width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	background-image:url("../dunes.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.section-two-image-two{
+	width:32%;
+	height:100%;
+	position: relative;
+	float:right;
+	background-image:url("../black vase.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.section-two-image-three{
+	width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	margin-left:14px;
+	background-image:url("../orange sky.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+@media screen and (max-width:1125px){
+.section-two-image-three{
+	width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	margin-left:11px;
+	background-image:url("../orange sky.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.section-two-text1{
+	width:175px;
+	height:30px;
+	position: absolute;
+	/*background:#f05;*/
+	color:#000;
+	font-family: calibri;
+	top:-40px;
+	font-size:24px;
+}	
+}
+@media screen and (max-width:1000px){
+.section-two-image-three{
+	width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	margin-left:10px;
+	background-image:url("../orange sky.jpeg");
+	background-size: cover;
+	background-position: center;
+}	
+.section-two-text1{
+	width:160px;
+	height:30px;
+	position: absolute;
+	/*background:#f05;*/
+	color:#000;
+	font-family: calibri;
+	top:-40px;
+	font-size:22px;
+}
+.section-two-text2{
+	width:120px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	position:relative;
+	float: right;
+	margin-top:20px;
+    /*bottom:-400px;*/
+	background:#f05;
+	color: black;
+	font-family: calibri;
+	font-size:14px;
+}
+}
+@media screen and (max-width:900px){
+.section-two-image-three{
+	width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	margin-left:9px;
+	background-image:url("../orange sky.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.section-two-text1{
+	width:140px;
+	height:30px;
+	position: absolute;
+	/*background:#f05;*/
+	color:#000;
+	font-family: calibri;
+	top:-40px;
+	font-size:18px;
+}
+.section-two-text2{
+	width:110px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	position:relative;
+	float: right;
+	margin-top:20px;
+    /*bottom:-400px;*/
+	background:#f05;
+	color: black;
+	font-family: calibri;
+	font-size:13px;
+}	
+}
+@media screen and (max-width:800px){
+.section-two-image-three{
+	width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	margin-left:8px;
+	background-image:url("../orange sky.jpeg");
+	background-size: cover;
+	background-position: center;
+}	
+}
+@media screen and (max-width:750px){
+.section-two-background{
+	width:100%;
+	height:300px;
+	position: relative;
+	float: left;
+	background:#fff;
+	justify-content: center;
+	display:inline-block;
+	align-content: center;
+}
+.section-two-image-one{
+	width:100%;
+	height:100%;
+	position: relative;
+	float: left;
+	background-image:url("../dunes.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.section-two-image-two{
+	width:100%;
+	height:100%;
+	position: relative;
+	float:left;
+	margin-top:10px;
+	background-image:url("../black vase.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.section-two-image-three{
+	width:100%;
+	height:100%;
+	position: relative;
+	float: right;
+	margin-top:10px;
+	background-image:url("../orange sky.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+}
+/*section three*/
+.section-three{
+	width:100%;
+	height:250px;
+	position: relative;
+	float: left;
+	background:#000;
+	margin-top:150px;
+}
+.section-three-part-one{
+	width:60%;
+	height:250px;
+	position: relative;
+	float: left;
+	background:rgb(210,255,210);
+}
+.section-three-part-two{
+	width:40%;
+	height:250px;
+	position: relative;
+	float:right;
+	background-image:url("../background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.section-three-textcon{
+	width:271px;
+	height:200px;
+	/*background:#fff;*/
+	float: right;
+	margin-right:120px;
+}
+.section-three-text1{
+	font-size:25px;
+	color:#000;
+	margin-top:10px;
+	text-align: left;
+}
+.section-three-button{
+	width:120px;
+	height:30px;
+	background:#f05;
+	color:#000;
+	font-size:13px;
+	margin-top:20px;
+	border:none;
+}
+.section-three-image{
+	width:200px;
+	height:250px;
+	top:-50px;
+	left:-100px;
+	position: absolute;
+	background-image:url("../3.jpg");
+	background-size:cover;
+	background-position: center;
+}
+@media screen and (max-width:978px){
+.section-three-image{
+	width:170px;
+	height:250px;
+	top:-50px;
+	left:-85px;
+	position: absolute;
+	background-image:url("../3.jpg");
+	background-size:cover;
+	background-position: center;
+}
+.section-three-textcon{
+	width:271px;
+	height:200px;
+	/*background:#fff;*/
+	float: right;
+	margin-right:90px;
+}
+.section-three-text1{
+	font-size:23px;
+	color:#000;
+	margin-top:10px;
+	text-align: left;
+}
+}
+@media screen and (max-width:750px){
+.section-three{
+	width:100%;
+	height:250px;
+	position: relative;
+	float: left;
+	background:#000;
+	margin-top:800px;
+}
+.section-three-image{
+	width:150px;
+	height:250px;
+	top:-50px;
+	left:-75px;
+	position: absolute;
+	background-image:url("../3.jpg");
+	background-size:cover;
+	background-position: center;
+}
+.section-three-textcon{
+	width:271px;
+	height:200px;
+	/*background:#fff;*/
+	float: right;
+	margin-right:90px;
+}
+.section-three-text1{
+	font-size:21px;
+	color:#000;
+	margin-top:10px;
+	text-align: left;
+}
+}
+@media screen and (max-width:650px){
+.section-three-image{
+	width:130px;
+	height:250px;
+	top:-50px;
+	left:-65px;
+	position: absolute;
+	background-image:url("../3.jpg");
+	background-size:cover;
+	background-position: center;
+}
+.section-three-textcon{
+	width:150px;
+	height:150px;
+	/*background:#fff;*/
+	float: right;
+	margin-right:70px;
+}
+.section-three-button{
+	width:90px;
+	height:30px;
+	background:#f05;
+	color:#000;
+	font-size:12px;
+	margin-top:20px;
+	border:none;
+}
+.section-three-text1{
+	font-size:18px;
+	color:#000;
+	margin-top:10px;
+	text-align: left;
+}
+}
+/*fourth section*/
+.section-four-container{
+	width:100%;
+	height:400px;
+	position: relative;
+	float: left;
+	margin-top:50px;
+	background:#fff;
+}
+.section-four-wrap{
+	width:60%;
+	margin-left:20%;
+}
+.section-four-background{
+	width:100%;
+	height:400px;
+	position: relative;
+	float: left;
+	background:#fff;
+}
+.help{
+	text-align: center;
+	font-size:12px;
+	color:#000;
+	margin-bottom:20px;
+}
+.view{
+	text-align: center;
+	font-size:30px;
+	color:#000;
+	margin-bottom:20px;
+}
+.section-four-card1{
+	width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	background:#fff;
+	box-shadow:0px 0px 2px grey;
+}
+.section-four-upperimg1{
+	width:100%;
+	height:200px;
+	background-image:url("../lady rock edge.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-size:20px;
+	color:#000;
+	margin-top:10px;
+}
+a{
+	color:#000;
+}
+.lorem1{
+	text-align: center;
+	font-size:18px;
+	color:#000;
+	margin-top:7px;
+}
+.Package{
+	font-size:20px;
+	color:#000;
+	text-align: center;
+	margin-top:10px;
+}
+.section-four-card2{
+    width:32%;
+	height:100%;
+	position: relative;
+	float:right;
+	background:#fff;
+	box-shadow:0px 0px 2px grey;
+}
+.section-four-upperimg2{
+	width:100%;
+	height:200px;
+	background-image:url("../rock edge.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+.lorem2{
+	text-align: center;
+	font-size:18px;
+	color:#000;
+	margin-top:7px;
+}
+.brand{
+	font-size:20px;
+	color:#000;
+	text-align: center;
+	margin-top:10px;
+}
+.section-four-card3{
+    width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	margin-left:16px;
+	background:#fff;
+	box-shadow:0px 0px 2px grey;
+}
+.section-four-upperimg3{
+	width:100%;
+	height:200px;
+	background-image:url("../bloggers.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+.lorem3{
+	text-align: center;
+	font-size:18px;
+	color:#000;
+	margin-top:7px;
+}
+.Web{
+	font-size:20px;
+	color:#000;
+	text-align: center;
+	margin-top:10px;
+}
+@media screen and (max-width:1110px){
+.section-four-card3{
+    width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	margin-left:12px;
+	background:#fff;
+	box-shadow:0px 0px 2px grey;
+}
+h1{
+	text-align:center;
+	text-decoration: underline;
+	font-size:20px;
+	color:#000;
+	margin-top:12px;
+}
+.lorem1{
+	text-align: center;
+	font-size:15px;
+	color:#000;
+	margin-top:20px;
+}
+.lorem2{
+	text-align: center;
+	font-size:15px;
+	color:#000;
+	margin-top:20px;
+}
+.lorem3{
+	text-align:center;
+	font-size:15px;
+	color:#000;
+	margin-top:20px;
+}
+}
+@media screen and (max-width:978px){
+.section-four-wrap{
+	width:70%;
+	margin-left:15%;
+}
+h1{
+	text-align:center;
+	text-decoration: underline;
+	font-size:20px;
+	color:#000;
+	margin-top:12px;
+}
+.section-four-card3{
+    width:32%;
+	height:100%;
+	position: relative;
+	float: left;
+	margin-left:12px;
+	background:#fff;
+	box-shadow:0px 0px 2px grey;
+}
+.lorem1{
+	text-align: center;
+	font-size:16px;
+	color:#000;
+	margin-top:20px;
+}
+.lorem2{
+	text-align: center;
+	font-size:16px;
+	color:#000;
+	margin-top:20px;
+}
+.lorem3{
+	text-align:center;
+	font-size:16px;
+	color:#000;
+	margin-top:20px;
+}
+}
+@media screen and (max-width:790px){
+.section-four-wrap{
+	width:50%;
+	margin-left:25%;
+}
+.section-four-background{
+	width:100%;
+	height:400px;
+	position: relative;
+	float: left;
+	background:#fff;
+	display:inline-block;
+	justify-content:center;
+	align-items: center;
+}
+.section-four-card1{
+	width:100%;
+	height:100%;
+	position: relative;
+	float: left;
+	background:#fff;
+	box-shadow:0px 0px 2px grey;
+}
+.section-four-upperimg1{
+	width:100%;
+	height:230px;
+	background-image:url("../lady rock edge.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+.section-four-card2{
+    width:100%;
+	height:100%;
+	position: relative;
+	float:left;
+	background:#fff;
+	box-shadow:0px 0px 2px grey;
+	margin-top:10px;
+}
+.section-four-upperimg2{
+	width:100%;
+	height:230px;
+	background-image:url("../rock edge.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+.section-four-card3{
+    width:100%;
+	height:100%;
+	position: relative;
+	float:right;
+	margin-top:10px;
+	background:#fff;
+	box-shadow:0px 0px 2px grey;
+}
+.section-four-upperimg3{
+	width:100%;
+	height:230px;
+	background-image:url("../bloggers.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+}
+@media screen and (max-width:485px){
+.section-four-upperimg1{
+	width:100%;
+	height:200px;
+	background-image:url("../lady rock edge.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+.section-four-upperimg2{
+	width:100%;
+	height:200px;
+	background-image:url("../rock edge.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+.section-four-upperimg3{
+	width:100%;
+	height:200px;
+	background-image:url("../bloggers.jpeg");
+	background-size:cover;
+	background-position: center;
+}
+}
+/*fifth section*/
+.section-five{
+	width:100%;
+	height:300px;
+	position: relative;
+	float: left;
+	background: rgb(210,255,210);
+	margin-top:150px;
+}
+.section-five-img1{
+	width:250px;
+	height:280px;
+	background-image:url("../jelly fish.jpeg");
+	background-size:cover;
+	background-position: center;
+	margin:auto auto;
+}
+.section-five-img2{
+	width:200px;
+	height: 270px;
+	position:absolute;
+	margin:30px auto auto -200px;
+	background-image: url("../lady rock edge.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.section-five-textcon{
+	width: 280px;
+	height:160px;
+	text-align: center;
+	margin:110px auto auto 160px;
+	background: #fff;
+	position: absolute;
+}
+.section-five-text1{
+     color: #000;
+     font-size:20px;
+     margin-top:15px;
+}
+.section-five-text2{
+	color:#000;
+	font-size: 14px;
+	margin-top:12px;
+}
+.section-five-button{
+	width: 120px;
+	height:25px;
+	line-height: 25px;
+	background: #f25;
+	color: #000;
+	font-size: 17px;
+	margin-top:10px;
+	border: none;
+	margin-left: 80px
+}
+@media screen and (max-width:978px){
+.section-five-img1{
+	width:200px;
+	height:280px;
+	background-image:url("../jelly fish.jpeg");
+	background-size:cover;
+	background-position: center;
+	margin:auto auto;
+}
+.section-five-img2{
+	width:180px;
+	height: 270px;
+	position:absolute;
+	margin:30px auto auto -180px;
+	background-image: url("../lady rock edge.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.section-five-textcon{
+	width: 230px;
+	height:160px;
+	text-align: center;
+	margin:110px auto auto 160px;
+	background: #fff;
+	position: absolute;
+}
+.section-five-text1{
+     color: #000;
+     font-size:18px;
+     margin-top:15px;
+}
+.section-five-text2{
+	color:#000;
+	font-size: 13px;
+	margin-top:12px;
+}
+.section-five-button{
+	width: 100px;
+	height:25px;
+	line-height: 25px;
+	background: #f25;
+	color: #000;
+	font-size: 14px;
+	margin-top:10px;
+	border: none;
+	margin-left:65px
+}
+}
+@media screen and (max-width:790px){
+.section-five{
+	width:100%;
+	height:300px;
+	position: relative;
+	float: left;
+	background: rgb(210,255,210);
+	margin-top:1000px;
+}
+}
+@media screen and (max-width:650px){
+.section-five-img1{
+	width:160px;
+	height:280px;
+	background-image:url("../jelly fish.jpeg");
+	background-size:cover;
+	background-position: center;
+	margin:auto auto;
+}
+.section-five-img2{
+	width:150px;
+	height: 270px;
+	position:absolute;
+	margin:30px auto auto -150px;
+	background-image: url("../lady rock edge.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.section-five-textcon{
+	width:190px;
+	height:160px;
+	text-align: center;
+	margin:110px auto auto 100px;
+	background: #fff;
+	position: absolute;
+}
+.section-five-text1{
+     color: #000;
+     font-size:15px;
+     margin-top:15px;
+}
+.section-five-text2{
+	color:#000;
+	font-size: 12px;
+	margin-top:12px;
+}
+.section-five-button{
+	width:80px;
+	height:25px;
+	line-height: 25px;
+	background: #f25;
+	color: #000;
+	font-size: 13px;
+	margin-top:10px;
+	border: none;
+	margin-left:55px
+}
+}
+@media screen and (max-width:500px){
+.section-five-img1{
+	width:130px;
+	height:280px;
+	background-image:url("../jelly fish.jpeg");
+	background-size:cover;
+	background-position: center;
+	margin:auto auto;
+}
+.section-five-img2{
+	width:110px;
+	height: 270px;
+	position:absolute;
+	margin:30px auto auto -110px;
+	background-image: url("../lady rock edge.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.section-five-textcon{
+	width:140px;
+	height:140px;
+	text-align: center;
+	margin:110px auto auto 100px;
+	background: #fff;
+	position: absolute;
+}
+.section-five-text1{
+     color: #000;
+     font-size:12px;
+     margin-top:15px;
+}
+.section-five-text2{
+	color:#000;
+	font-size: 10px;
+	margin-top:12px;
+}
+.section-five-button{
+	width:70px;
+	height:25px;
+	line-height: 25px;
+	background: #f25;
+	color: #000;
+	font-size: 11px;
+	margin-top:10px;
+	border: none;
+	margin-left:35px
+}
+}
+/*section six*/
+.section-six{
+	width: 100%;
+	height:350px;
+	position: relative;
+	float: left;
+	background:#ebebeb;
+	margin-top: 70px;
+}
+.loop{
+	font-size:40px;
+    margin:105px 0px 0px 450px;
+}
+.section-six-lorem{
+	font-size:15px;
+	margin:30px 0px 0px 370px;
+}
+.section-six-container{
+	width:600px;
+	height:50px;
+	margin-top:30px;
+	margin-left:335px;
+}
+.section-six-box-one{
+	width:140px;
+	height:35px;
+	position: relative;
+	float:left;
+	font-size:15px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;
+}
+.section-six-box-two{
+    width:140px;
+	height:35px;
+	position: relative;
+	float:right;
+	font-size:15px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background:#f15;	
+}
+.section-six-box-three{
+	width:140px;
+	height:35px;
+	position: relative;
+	float:left;
+	margin-left: 15px;
+	font-size:15px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;	
+}
+.section-six-box-four{
+    width:140px;
+	height:35px;
+	position: relative;
+	float:right;
+	margin-right: 15px;
+	font-size:15px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;	
+}
+@media screen and (max-width:1000px){
+	.loop{
+	font-size:40px;
+    margin:105px 0px 0px 350px;
+}
+.section-six-lorem{
+	font-size:15px;
+	margin:30px 0px 0px 260px;
+}
+.section-six-container{
+	width:600px;
+	height:50px;
+	margin-top:30px;
+	margin-left:235px;
+}
+}
+@media screen and (max-width:890px){
+	.loop{
+	font-size:40px;
+    margin:105px 0px 0px 250px;
+}
+.section-six-lorem{
+	font-size:15px;
+	margin:30px 0px 0px 175px;
+}
+.section-six-container{
+	width:600px;
+	height:50px;
+	margin-top:30px;
+	margin-left:135px;
+}
+}
+@media screen and (max-width:790px){
+	.loop{
+	font-size:30px;
+    margin:105px 0px 0px 290px;
+}
+.section-six-lorem{
+	font-size:13px;
+	margin:30px 0px 0px 190px;
+}
+.section-six-container{
+	width:480px;
+	height:50px;
+	margin-top:30px;
+	margin-left:175px;
+}
+.section-six-box-one{
+	width:110px;
+	height:35px;
+	position: relative;
+	float:left;
+	font-size:12px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;
+}
+.section-six-box-two{
+    width:110px;
+	height:35px;
+	position: relative;
+	float:right;
+	font-size:12px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background:#f15;	
+}
+.section-six-box-three{
+	width:110px;
+	height:35px;
+	position: relative;
+	float:left;
+	margin-left:12px;
+	font-size:15px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;	
+}
+.section-six-box-four{
+    width:110px;
+	height:35px;
+	position: relative;
+	float:right;
+	margin-right:12px;
+	font-size:15px;
+	color: #000
+	text-align: center;
+	line-height: 35px;
+	background: #fff;	
+}
+}
+@media screen and (max-width:675px){
+.loop{
+	font-size:25px;
+    margin:105px 0px 0px 250px;
+}
+.section-six-lorem{
+	font-size:13px;
+	margin:30px 0px 0px 120px;
+}
+.section-six-container{
+	width:400px;
+	height:50px;
+	margin-top:30px;
+	margin-left:145px;
+}
+.section-six-box-one{
+	width:90px;
+	height:35px;
+	position: relative;
+	float:left;
+	font-size:12px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;
+}
+.section-six-box-two{
+    width:90px;
+	height:35px;
+	position: relative;
+	float:right;
+	font-size:12px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background:#f15;	
+}
+.section-six-box-three{
+	width:90px;
+	height:35px;
+	position: relative;
+	float:left;
+	margin-left:12px;
+	font-size:15px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;	
+}
+.section-six-box-four{
+    width:90px;
+	height:35px;
+	position: relative;
+	float:right;
+	margin-right:12px;
+	font-size:15px;
+	color: #000
+	text-align: center;
+	line-height: 35px;
+	background: #fff;	
+}
+}
+/*section seven*/
+.section-seven{
+	width: 100%;
+	height:300px;
+	position: relative;
+	float:left;
+	background:#ebebeb;
+	margin-top: 100px;
+}
+.section-seven-image{
+	width: 200px;
+	height:250px;
+	background-image:url("../1.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 20px 600px;
+	position:relative;
+}
+.section-seven-container{
+	width:300px;
+	height:150px;
+	/*background: #e5a78f;*/
+	margin-left:-300px;
+   position: absolute;
+}
+.section-seven-text1{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.section-seven-text2{
+	font-size:24px;
+	text-align: left;
+}
+.section-seven-button{
+	width: 120px;
+	height: 30px;
+	background: #f15;
+	border: none;
+	color: black;
+	font-size:14px;
+	text-align: center;
+	margin-top: 20px;
+}
+/*bottom section*/
+.bottom-section{
+	width:100%;
+	height: 400px;
+	position: relative;
+	float: left;
+	background:#2e8b57;
+}
+.bottom-section-container{
+	width:50%;
+	margin-left: 25%;
+}
+.bottom-section-wrap{
+	width: 100%;
+	height: 400px;
+	/*background: #f8e;*/
+	position: relative;
+	float: left;
+}
+.bottom-section-cont1{
+	width:500px;
+	height:120px;
+	/*background:#f9d;*/
+	position: relative;
+	float:left;
+	margin-top:30px;
+}
+.bottom-section-text1{
+	font-size: 40px;
+	color: #fff;
+}
+.bottom-section-text2{
+	font-size: 14px;
+	color:#fff;
+	margin-top:12px;
+}
+.bottom-image-cont{
+	width: 100%;
+	height:180px;
+	position: relative;
+	float: left;
+	justify-content: center;
+	display: flex;
+	align-content: space-around;
+	background: #98fed4;
+}
+.bottom-img1{
+	width: 25%;
+	height: 100%;
+	background-image:url("../2.jpg");
+	position: relative;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.bottom-img2{
+	width: 25%;
+	height: 100%;
+	background-image:url("../white bulb.jpeg");
+	position: relative;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.bottom-img3{
+	width: 25%;
+	height: 100%;
+	background-image:url("../lady blue.jpeg");
+	position: relative;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.bottom-img4{
+	width: 25%;
+	height: 100%;
+	background-image:url("../ocean fire.jpeg");
+	position: relative;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.bottom-section-line{
+	width: 100%;
+	border-bottom:1px solid #fff;
+	margin-top:12px;
+	position: relative;
+	float: left;
+}
+.footer{
+	width:100%;
+	height: 25px;
+	/*background: #b45d91;*/
+	margin-top: 7px;
+	color: #fff;
+	position: relative;
+	float: left;
+	text-align: center;
+}
